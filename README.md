@@ -2,11 +2,11 @@
 
 This project demonstrates the implementation of DevOps practices on the AWS cloud platform. It showcases a complete CI/CD pipeline using AWS services such as CodeCommit, CodeBuild, CodeDeploy, and CodePipeline.
 
-## Project Overview
+### Project Overview
 
 The project flow involves a developer pushing code to a website stored in an AWS CodeCommit repository. Subsequently, AWS CodeBuild automatically builds the code and deploys it to an S3 bucket. In the next stage, the built and tested code from CodeBuild is uploaded to an Amazon S3 bucket configured as a website. Finally, AWS CodeDeploy takes the tested code from CodeBuild and deploys it to an Elastic Beanstalk environment.
 
-## Project Steps
+### Project Steps
 
 1. **Setting up the AWS and Git Environment**: Create a new CodeCommit repository, clone it locally, and add project files.
 
@@ -20,7 +20,7 @@ The project flow involves a developer pushing code to a website stored in an AWS
 
 6. **Creating a Complete CI/CD Pipeline with CodePipeline**: Set up a CodePipeline that orchestrates the entire workflow, from source code management to deployment, automating the CI/CD process.
 
-## Technologies Used
+### Technologies Used
 
 - AWS CodeCommit
 - AWS CodeBuild
@@ -30,7 +30,7 @@ The project flow involves a developer pushing code to a website stored in an AWS
 - AWS CodePipeline
 - AWS IAM (for roles and permissions)
 
-## Getting Started
+### Getting Started
 
 To get started with this project, you'll need an AWS account and the necessary permissions to create and manage the required AWS services. Follow the step-by-step guide provided in the project documentation for detailed instructions.
 
