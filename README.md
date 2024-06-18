@@ -1,4 +1,4 @@
-# Integrating AWS DevOps: Complete CI/CD Pipeline 
+## Integrating AWS DevOps: Complete CI/CD Pipeline 
 
 This project demonstrates the implementation of DevOps practices on the AWS cloud platform. It showcases a complete CI/CD pipeline using AWS services such as CodeCommit, CodeBuild, CodeDeploy, and CodePipeline.
 
